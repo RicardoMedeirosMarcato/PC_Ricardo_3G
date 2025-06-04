@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil Pessoal</title>
+  <style>
+    body {
+      background-color: #0b1d3f; /* azul bem escuro */
+      color: #d0e1ff; /* azul claro para texto */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 20px;
+    }
+
+    h1, h2 {
+      color: #74a9ff; /* azul médio para títulos */
+      font-weight: 700;
+    }
+
+    p, li {
+      font-size: 1.1em;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #a2caff; /* azul claro para links */
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #ffffff; /* branco no hover */
+      text-decoration: underline;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    iframe {
+      border-radius: 8px;
+      border: 2px solid #74a9ff;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ricardo - Perfil Pessoal</h1>
+  <p><strong>Nome:</strong> Ricardo</p>
+  <p><strong>Idade:</strong> 16 anos</p>
+  <p><strong>Escolaridade:</strong> Cursando Ensino Médio</p>
+  <p><strong>Cidade/Estado:</strong> Curitiba - Paraná</p>
+
+  <h2>Vídeo que me inspira</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=HO7uge9UUrA&pp=ygVLZG9udCB3b3JyeSBhYm91dCBhIHRoaW5nIGNhdXNlIGV2ZXJ5IGxpdHRsZSB0aGluZydzIGdvbm5hIGJlIGFscmlnaHQgbHlyaWNz" frameborder="0" allowfullscreen></iframe>
+
+  <h2>Redes Sociais</h2>
+  <ul>
+    <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+    <li><a href="https://github.com" target="_blank">GitHub</a></li>
+  </ul>
+</body>
+</html>
